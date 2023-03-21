@@ -1,0 +1,80 @@
+:root {
+    --green: rgb(68, 138, 76);
+    --lightgray: lightgray;
+    --beige: rgba(197, 204, 167, 0.877);
+    --regblack:black;
+}
+* {
+    color:var(--lightgray);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    background-color:var(--green);
+    margin: 0;
+}
+
+.mainheader {
+    background-color: var(--beige);
+    border-bottom: 2px solid var(--regblack);
+    padding: 40px;
+    text-align: center;
+
+}
+
+.mainheader h1, h2 {
+    font-size: 40px;
+    color: var(--regblack);
+    opacity: 50%;
+  }
+  .containerbox {
+    border: 2px solid var(--green);
+    margin: 0 1.5rem;
+  }
+  .row {
+    background-color: var(--green);
+    margin:0.5rem 0.5rem;
+    text-align: center;
+  }
+
+  .form-inline {
+    padding-right: 0px;
+  }
+
+  button {
+    margin:0.5rem 0.5rem;
+  }
+
+  #cityViewed {
+    text-align: center;
+    justify-content: center;
+  }
+
+  #todayWeather {
+    margin-top: 20px;
+    margin-left: 1px;
+    line-break: normal;
+  }
+
+  p {
+    font-weight: 500;
+    text-align: center;
+  }
+
+  #temperature,
+  #humid,
+  #wind,
+  #uv {
+    text-align: left;
+  }
+
+  #forecast {
+    margin-top: 20px;
+  }
+
+.card {
+  background-color: var(--seagreen);
+  border: none;
+}
